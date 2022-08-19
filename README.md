@@ -11,7 +11,7 @@
 sudo -i
 ```   
 来启用root
-接着前往头文件文件夹
+**接着前往头文件文件夹**
 ```
 cd /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1
 ```   
@@ -28,7 +28,7 @@ mkdir bits
 ```
 cd bits
 ```
-##Step3
+## Step3
 安装vim文本编辑器（如果有请跳过下面一行代码）
 ```
 sudo apt-get install vim-gtk
@@ -45,6 +45,6 @@ vim stdc++.h
 :wq
 ```
 保存并推出
-##Step4
+## Step4
 再次使用bits/stdc++.h头文件的时候就会发现Build成功了
 ![截屏2022-08-19 20 04 12](https://user-images.githubusercontent.com/110269012/185615099-0ec59d65-17c5-4e89-92e4-fd931f13e8a4.png)
